@@ -20,17 +20,17 @@
 	* #include <goalseek.h>
 	* 
 	* double avg(double a, double b, double c){
-	*	  return (a + b + c) / 3;
+	*	return (a + b + c) / 3;
 	* }
 	* 
 	* int main() {
-  *	double ans = 0;
-  * 	printf("average of is 234, 456 and 876 is %lf\n", avg(234,456,876));
+    *	double ans = 0;
+    * 	printf("average of is 234, 456 and 876 is %lf\n", avg(234,456,876));
 	* 	// avg(234,456,876) is 522. Replace argument b with any value, i want this to become 900
-  * 	ans = goalseek(&avg,3,2,900.0,234.0,456.0,876.0);
-  * 	printf("If you want average to 900, C should be %lf\n", ans);
-  * 	gets(stdin);
-  * 	return (0);
+    * 	ans = goalseek(&avg,3,2,900.0,234.0,456.0,876.0);
+    * 	printf("If you want average to 900, C should be %lf\n", ans);
+    * 	gets(stdin);
+    * 	return (0);
 	* }	
 	*/
 	
