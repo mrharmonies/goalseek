@@ -7,7 +7,7 @@ double goalseek(double* pf, int argn, int warg, double goal, ...)
 2. **argn** is arguments number function pf pointed to. eg double add(double a, double b) accepts 2 arguments
 3. **warg** is index if which arguments you want to seek. eg, if function add(500,300) and you want to seek second value, the set warg value to 2
 4. **goal** is the end value that you wants
-5. **...** is variadic variable you set to initialize the function
+5. **...** is variadic variable where you set to initialize the function
 
 # usage example
 	#include <stdio.h>
