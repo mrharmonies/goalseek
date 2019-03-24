@@ -1,5 +1,5 @@
 # goalseek
-Seek for missing value in linear math function where goal value is set
+Seek for missing value in linear math function where goal value is set, similar to Goalseek tool you see in spreadsheet application
 
 # function declaration and arguments definition
 double goalseek(double* pf, int argn, int warg, double goal, ...)
