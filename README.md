@@ -11,9 +11,9 @@ goalseek function is declared as `double goalseek(double* pf, int argn, int warg
 
 # usage example
 ```C++
+
 #include <stdio.h>
-#include <stdarg.h>
-#include <math.h>
+#include "goalseek.h"
 
 double avg(double a, double b, double c){
 	return (a + b + c) / 3;
