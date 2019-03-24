@@ -1,5 +1,5 @@
 # goalseek
-Goalseek is a simple library used to seek for value in linear math function where goal value is set, similar to Goalseek tool you see in spreadsheet application. According to wikipedia, Goal Seeking is the ability to calculate backward to obtain an input that would result in a given output. This can also be called what-if analysis or back-solving. It can either be attempted through trial and improvement or more logical means.
+Goalseek is a simple C library used to seek for value in linear math function where goal value is set, similar to Goalseek tool you see in spreadsheet application. According to wikipedia, Goal Seeking is the ability to calculate backward to obtain an input that would result in a given output. This can also be called what-if analysis or back-solving. It can either be attempted through trial and improvement or more logical means.
 
 # function declaration and arguments definition
 goalseek function is declared as `double goalseek(double* pf, int argn, int warg, double goal, ...)`
