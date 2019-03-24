@@ -27,10 +27,6 @@ double minu(double a, double b){
 	return a - b;
 }
 
-double avg(double a, double b, double c){
-	return (a + b + c) / 3;
-}
-
 double nliner(double x,double a, double b){
 	return pow(a,2)+(a-6);
 	// as for now, goalseek dont work with nonlinear function
