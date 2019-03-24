@@ -10,6 +10,7 @@ goalseek function is declared as `double goalseek(double* pf, int argn, int warg
 5. `...` is variadic variable where you set to initialize the function
 
 # usage example
+To use this library, just include `#include "goalseek.h"` to your code.
 ```C
 #include <stdio.h>
 #include "goalseek.h"
