@@ -18,6 +18,23 @@ double goalseek(double* pf, int argn, int warg, double goal, ...)
 		return (a + b + c) / 3;
 	}
 	
+	double sum(double a, double b, double c){
+		return a + b + c;
+	}
+
+	double minu(double a, double b){
+		return a - b;
+	}
+
+	double avg(double a, double b, double c){
+		return (a + b + c) / 3;
+	}
+
+	double nliner(double x,double a, double b){
+		return pow(a,2)+(a-6);
+		// as for now, goalseek dont work with nonlinear function
+	}
+	
 	int main() {
 		double ans = 0;
 		printf("average of is 234, 456 and 876 is %lf\n", avg(234,456,876));
