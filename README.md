@@ -4,8 +4,8 @@ Goalseek is a simple C library used to seek for value in linear math function wh
 # function declaration and arguments definition
 goalseek function is declared as `double goalseek(double* pf, int argn, int warg, double goal, ...)`
 1. `pf` is pointer to function (type double)
-2. `argn` is arguments number function pf pointed to. eg `double add(double a, double b)` accepts 2 arguments
-3. `warg` is index if which arguments you want to seek. eg, if function `add(500,300)` and you want to seek second value (currently is 300), the set `warg` value to `2`
+2. `argn` is number of arguments accepted by function `pf` pointed to. eg `double add3num(double a, double b, double c)` accepts 2 arguments which is a, b and c
+3. `warg` is index of which arguments you want to seek. eg, if function `add(500,300)` and you want to seek second value (currently is 300), the set `warg` value to `2`
 4. `goal` is the end value that you wants
 5. `...` is variadic variable where you set to initialize the function
 
@@ -62,7 +62,6 @@ int main() {
   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
   details.
-  
   
   A copy of the GNU General Public License is available on the World Wide Web
   at <http://www.gnu.org/copyleft/gpl.html>. You can also obtain it by writing
